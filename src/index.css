@@ -9,8 +9,12 @@ body {
 
 html, body {
   min-width: 0 !important;
+  bacground-color: #000!important;
 }
 
 #zmmtg-root {
   display: none;
+  
 }
+
+

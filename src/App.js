@@ -8,8 +8,8 @@ ZoomMtg.setZoomJSLib('https://source.zoom.us/2.8.0/lib', '/av');
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareWebSDK();
 // loads language files, also passes any error messages to the ui
-ZoomMtg.i18n.load('en-US');
-ZoomMtg.i18n.reload('en-US');
+ZoomMtg.i18n.load('es-ES');
+ZoomMtg.i18n.reload('es-ES');
 
 function App() {
   // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
@@ -80,7 +80,7 @@ function App() {
   return (
     <div className='App'>
       <main>
-        <h1>Ingresa el siguiente codigo: 194524</h1>
+        <h1>Bienvenido</h1>
 
         <button onClick={getSignature}>Iniciar congreso</button>
       </main>
