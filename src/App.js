@@ -13,12 +13,12 @@ ZoomMtg.i18n.reload('es-ES');
 
 function App() {
   // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-  var signatureEndpoint = 'http://localhost:4000';
+  var signatureEndpoint = 'https://signature-coiner-production.up.railway.app/';
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   var sdkKey = 'HXw26mDaKLVcZEYs0kmaZNztcx2wR0IHo2g9';
   var meetingNumber = '88488043213';
   var role = 0;
-  var leaveUrl = 'http://localhost:3000';
+  var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'Host';
   var userEmail = 'gopharmamex@gmail.com';
   var passWord = 'GOpharma2021*';
