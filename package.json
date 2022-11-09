@@ -1,10 +1,10 @@
 {
-  "name": "meetingsdk-sample-react",
+  "name": "meetingsdk-coiner",
   "version": "2.8.0",
-  "author": "Zoom Video Communications, Inc.",
+  "author": "Carlos Boyzo",
   "contributors": [
     {
-      "name": "Tommy Gaessler"
+      "name": "Carlos Boyzo"
     }
   ],
   "homepage": "",
@@ -16,9 +16,10 @@
     "@zoomus/websdk": "^2.8.0",
     "dotenv": "^16.0.3",
     "react": "^17.0.1",
-    "react-dev-utils": "^11.0.4",
+    "react-dev-utils": "^12.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.56.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -44,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.2"
   }
 }
