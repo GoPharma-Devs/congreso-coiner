@@ -16,7 +16,7 @@ function App() {
   var signatureEndpoint = 'https://signature-coiner-production.up.railway.app/';
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   var sdkKey = 'HXw26mDaKLVcZEYs0kmaZNztcx2wR0IHo2g9';
-  var meetingNumber = '88488043213';
+  var meetingNumber = '81846937402';
   var role = 0;
   var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'Host';
