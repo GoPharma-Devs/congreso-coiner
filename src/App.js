@@ -130,7 +130,7 @@ function App() {
               <div className='flex items-center justify-center'>
                 <img
                   alt='PTC LABORATORIES'
-                  src='https://firebasestorage.googleapis.com/v0/b/coiner-2022.appspot.com/o/ptc%202.png?alt=media&token=54533fd6-7585-4ca6-9cc1-0b6a347889fe'
+                  src='https://firebasestorage.googleapis.com/v0/b/assets-coiner2022.appspot.com/o/PTC.png?alt=media&token=5903841c-e569-417a-8141-7af611c2b693'
                   width={127}
                   height={48}
                   decoding='async'
