@@ -22,10 +22,7 @@ function App() {
   var userName = 'Host';
   var userEmail = 'gopharmamex@gmail.com';
   var passWord = 'GOpharma2021*';
-  // pass in the registrant's token if your meeting or webinar requires registration. More info here:
-  // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/meetings#join-registered
-  // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-registered
-  var registrantToken = '';
+ 
 
   function getSignature(e) {
     e.preventDefault();
