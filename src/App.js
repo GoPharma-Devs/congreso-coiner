@@ -16,7 +16,7 @@ function App() {
   var signatureEndpoint = 'https://signature-coiner-production.up.railway.app/';
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   var sdkKey = 'HXw26mDaKLVcZEYs0kmaZNztcx2wR0IHo2g9';
-  var meetingNumber = '81844729810';
+  var meetingNumber = '818 4472 9810';
   var role = 0;
   var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'Host';
@@ -56,13 +56,12 @@ function App() {
         console.log(success);
 
         ZoomMtg.join({
-          signature: signature,
-          meetingNumber: meetingNumber,
-          userName: userName,
           sdkKey: sdkKey,
-          userEmail: userEmail,
+          signature: signature, // role in SDK signature needs to be 0
+          meetingNumber: meetingNumber,
           passWord: passWord,
-          tk: registrantToken,
+          userName: userName,
+          userEmail: userEmail, // userEmail property required
           success: (success) => {
             console.log(success);
           },
