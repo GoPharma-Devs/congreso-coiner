@@ -19,7 +19,7 @@ function App() {
   var meetingNumber = '81844729810';
   var role = 0;
   var leaveUrl = 'https://congreso.coiner.org/';
-  var userName = 'Host';
+  var userName = 'COINER';
   var userEmail = 'gopharmamex@gmail.com';
   var passWord = 'GOpharma2021*';
  
