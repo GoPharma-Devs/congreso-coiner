@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import { ZoomMtg } from '@zoomus/websdk';
 
-ZoomMtg.setZoomJSLib('https://source.zoom.us/2.8.0/lib', '/av');
+ZoomMtg.setZoomJSLib('https://source.zoom.us/2.9.0/lib', '/av');
 
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareWebSDK();
@@ -83,14 +83,14 @@ function App() {
         <img src='/logo-coiner.svg' className='coiner' alt='' />
         <img src='/logo.png' className='logo' alt='Coiner' />
 
-        <button className='my-4' onClick={getSignature}>Iniciar congreso</button>
-       
+        <button className='my-4' onClick={getSignature}>
+          Iniciar congreso
+        </button>
+
         <section id='sponsors' aria-label='Sponsors' className='py-1 '>
-          
           <div className='mx-auto max-w-7xl '>
-          <p>Gracias a nuestros patrocinadores y aliados</p>
+            <p>Gracias a nuestros patrocinadores y aliados</p>
             <div className='sponsors mx-auto mt-20 mb-20 flex max-w-max place-content-center gap-y-12  sm:grid-cols-3 md:gap-x-5 '>
-              
               <div className='flex items-center justify-center'>
                 <img
                   alt='Biomarin'

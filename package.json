@@ -1,6 +1,6 @@
 {
   "name": "meetingsdk-coiner",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "author": "Carlos Boyzo",
   "contributors": [
     {
@@ -13,7 +13,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@zoomus/websdk": "^2.8.0",
+    "@zoomus/websdk": "^2.9.0",
     "dotenv": "^16.0.3",
     "react": "^17.0.1",
     "react-dev-utils": "^12.0.1",
