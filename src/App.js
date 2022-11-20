@@ -16,13 +16,12 @@ function App() {
   var signatureEndpoint = 'https://signature-coiner-production.up.railway.app/';
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   var sdkKey = 'HXw26mDaKLVcZEYs0kmaZNztcx2wR0IHo2g9';
-  var meetingNumber = '89098627449';
+  var meetingNumber = '81297002561';
   var role = 0;
   var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'COINER-asistente';
   var userEmail = 'gopharmamex@gmail.com';
   var passWord = 'GOpharma2021*';
-
 
   function getSignature(e) {
     e.preventDefault();
