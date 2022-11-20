@@ -20,7 +20,7 @@ function App() {
   var role = 0;
   var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'COINER-asistente';
-  var userEmail = 'gopharmamex@gmail.com';
+  var userEmail = 'carlos.boor@gmail.com';
   var passWord = 'GOpharma2021*';
 
   function getSignature(e) {
