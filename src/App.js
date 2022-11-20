@@ -17,12 +17,12 @@ function App() {
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   var sdkKey = 'HXw26mDaKLVcZEYs0kmaZNztcx2wR0IHo2g9';
   var meetingNumber = '89098627449';
-  var role = 0;
+  var role = 1;
   var leaveUrl = 'https://congreso.coiner.org/';
   var userName = 'COINER-asistente';
   var userEmail = 'gopharmamex@gmail.com';
   var passWord = 'GOpharma2021*';
- 
+
 
   function getSignature(e) {
     e.preventDefault();
